@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    font-family: Cormorant;
+    font-weight: 300;
+}
+
+h1 {
+    margin: 0px 32px 0px 32px;
+    font-weight: 300;
+    display: inline-block;
+
+}
+
+nav {
+    margin: 28px 0;
+    display: inline-block;
+}
+
+.links li {
+    list-style-type: none;
+    display: inline-block;
+}
+.gallery{
+    padding: 16px;
+}
+.links a {
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.links ul {
+    padding: 0;
+}
+
+a.work {
+    border-bottom: 1px solid black;
+}
+
+.card{
+    
+    padding: 16px;
+    box-sizing: border-box;
+    width: 49.75%;
+    display: inline-block;
+}
+.card img{ 
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+h2 {
+    margin: 8px 0 16px 0;    
+    display: inline-block;
+    font-weight: 300;
+}
+.footer h3{
+    font-weight: 300;
+    font-size: 40px;
+}
+.footer{
+    width: 40%;
+    margin: 100px 0px 100px 200px;
+    min-width: 600px;
+    max-width: 100%;
+}
+#under{
+    margin: 0px 0px 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.contato{   
+    margin-top: 10px;
+}
+.contato p{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+img:hover{
+    opacity: 0.9    ;
+}
+.footer #contato {
+    background-color: whitesmoke;
+    padding: 12px 12px 12px 12px;
+    border-radius: 0.5em;
+}
+.inputs {
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 0.5em;
+    color: white;  
+    border: none; 
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+button{
+    margin-top: 15px;
+    border: none;
+    padding: 15px;
+    width: 100%;
+}
+.footer h1{
+    width: 50%;
+    margin-left: 180px;
+    font-size: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
